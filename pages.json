@@ -1,0 +1,92 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+            "path" : "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "追寻总书记足迹"
+			}
+		}
+	    ,{
+			"path": "pages/index/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "追寻总书记足迹",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/map/map",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "追寻总书记足迹",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/study/study",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "追寻总书记足迹",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/score/score",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "追寻总书记足迹",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/form/form",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "登录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/textDetail/textDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "追寻总书记足迹",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/vr/vr",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "全景",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/screenShot/screenShot",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "追寻总书记足迹",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationStyle":"custom",
+		"navigationBarTitleText": "追寻总书记足迹",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"easycom": {
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+	}
+}

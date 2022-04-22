@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "echarts": "^3.6.2",
+    "html2canvas": "^1.4.1",
+    "mui": "^0.0.1",
+    "qs": "^6.10.3",
+    "swiper": "^6.6.2",
+    "vue-awesome-mui": "^1.7.3"
+  },
+  "globals": {
+    "plus": true
+  }
+}
